@@ -1,0 +1,14 @@
+para clona:
+
+--git clone + o link do git a ser clonado
+
+para ver o git:
+
+--git status
+
+obs: aqui mostra se tem alterações.
+
+para enviar as alterações para o controle de versão:
+
+--git add . ou git add -A  ( vai adicionar todos os arquivos no git de origem)
+
