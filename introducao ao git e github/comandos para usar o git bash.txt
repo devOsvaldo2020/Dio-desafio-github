@@ -10,5 +10,19 @@ obs: aqui mostra se tem alterações.
 
 para enviar as alterações para o controle de versão:
 
---git add . ou git add -A  ( vai adicionar todos os arquivos no git de origem)
+--git add . ou git add -A  ( vai preparar todos os arquivos para ser adicionado, deixa no nosso git local ainda)
+
+agora que ja esta pronto para subi temos que dar um commit
+
+--git commit -m "primeira alteracao feita e para subi para nuvens do micro local, desktop"
+
+o -m serve para adicionar uma mensagem la no git original, nao local.
+
+agora para sair do desktop temos que dar um git push.
+
+--git push origin main
+
+agora com o comando acima vamos mandar para o git original la no site do git mesmo, nas nuvens.
+
+
 
